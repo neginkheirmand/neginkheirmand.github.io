@@ -506,7 +506,11 @@ main {
 
 .about-text p { margin-bottom: 15px; }
 
-
+.svg-container svg {
+  width: 100%;
+  height: 100%;
+  fill: var(--vegas-gold); /* This applies the vegas-gold color */
+}
 
 /**
  * #service 
@@ -1042,7 +1046,7 @@ main {
   gap: 20px;
 }
 
-.blog-post-item > a {
+.blog-post-item {
   position: relative;
   background: var(--border-gradient-onyx);
   height: 100%;
@@ -1105,6 +1109,10 @@ main {
   transition: var(--transition-1);
 }
 
+.blog-item-title:hover{
+  color: var(--orange-yellow-crayola);
+}
+
 .blog-post-item > a:hover .blog-item-title { color: var(--orange-yellow-crayola); }
 
 .blog-text {
@@ -1115,7 +1123,9 @@ main {
 }
 
 
-
+.read-more-btn{
+  color: var(--vegas-gold);
+}
 
 
 /*-----------------------------------*\
@@ -1339,7 +1349,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .avatar-box { border-radius: 30px; }
 
-  .avatar-box img { width: 120px; }
+  .avatar-box img { width: 120px; border-radius: 30px;}
 
   .info-content .name { margin-bottom: 15px; }
 
@@ -1624,7 +1634,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   /* portfolio and blog grid */
 
-  .project-list, .blog-posts-list { grid-template-columns: 1fr 1fr; }
+  .project-list, .blog-posts-list { grid-template-columns: 1fr; }
 
 
 
@@ -1752,7 +1762,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    * BLOG
    */
 
-  .blog-banner-box { height: 230px; }
+  .blog-banner-box { height: 400px; }
 
 }
 

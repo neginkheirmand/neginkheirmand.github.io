@@ -1,83 +1,77 @@
 [[project]]
-title = "Flutter Cinemapedia App"
-category = "Mobile development"
-image = "https://i.imgur.com/ANDVQ4o.png"
-url = "https://github.com/ivansaul/flutter_cinemapedia_app#screenshots"
+title = "Football Tactical Pattern Recognition (FTPR)"
+category = "Artificial Intelligence"
+image = "./config/assets/projects/ftpr.png"
+url = "https://github.com/amirparsa-Sal/Football-Tactical-Pattern-Recognition/"
 
 [[project]]
-title = "Flutter Coffee Shop App"
-category = "Mobile development"
-image = "https://imgur.com/2nNXhDN.png"
-url = "https://github.com/ivansaul/flutter_coffee_shop_app#screenshots"
+title = "Persian Sign Language Recognition"
+category = "Artificial Intelligence"
+image = "./config/assets/projects/penslr2.png"
+url = "https://github.com/persian-Sign-Language/PenSLR"
 
 [[project]]
-title = "Flutter Todo App"
-category = "Mobile development"
-image = "https://imgur.com/7110Lj1.png"
-url = "https://github.com/ivansaul/flutter_todo_app#screenshots"
+title = "Edge Detection Algorithms"
+category = "Image Processing"
+image = "./config/assets/projects/edge-detection.png"
+url = "https://github.com/Amirparsa-Sal/Edge-Detection-Algorithms"
 
 [[project]]
-title = "Flutter Travel News App"
-category = "Mobile development"
-image = "https://imgur.com/t5T5Ixa.png"
-url = "https://github.com/ivansaul/flutter_travel_news_app#screenshots"
+title = "Sign Language Time Series Clustering"
+category = "Artificial Intelligence"
+image = "./config/assets/projects/penslr-clustering.png"
+url = "https://github.com/Amirparsa-Sal/Sign-Language-Glove-Time-Series-Clustering"
 
 [[project]]
-title = "Codigo Facilito Downloader"
-category = "Python Scripting"
-image = "https://imgur.com/kyHrBGk.png"
-url = "https://github.com/ivansaul/codigo_facilito_downloader"
+title = "Snail Jumper Evolution"
+category = "Artificial Intelligence"
+image = "./config/assets/projects/snail-jumper.png"
+url = "https://github.com/Amirparsa-Sal/SnailJumper-Evolution"
 
 [[project]]
-title = "Finance"
-category = "Web development"
-image = "./config/assets/projects/project-1.jpg"
-url = "https://github.com/ivansaul/flutter_cinemapedia_app#screenshots"
+title = "Digital Image Processing Projects"
+category = "Image Processing"
+image = "./config/assets/projects/brain.png"
+url = "https://github.com/Amirparsa-Sal/Digital-Image-Processing/"
 
 [[project]]
-title = "Orizon"
-category = "Web development"
-image = "./config/assets/projects/project-2.png"
-url = "https://github.com/ivansaul/flutter_todo_app#screenshots"
+title = "CAPTCHA Solver"
+category = "Artificial Intelligence"
+image = "./config/assets/projects/captcha.png"
+url = "https://github.com/Amirparsa-Sal/CAPTCHA-Solver"
 
 [[project]]
-title = "Fundo"
-category = "Web design"
-image = "./config/assets/projects/project-3.jpg"
-url = "https://github.com/ivansaul/flutter_cinemapedia_app#screenshots"
+title = "Heart Disease Fuzzy Expert System"
+category = "Artificial Intelligence"
+image = "./config/assets/projects/fuzzy2.png"
+url = "https://github.com/Amirparsa-Sal/Heart-Disease-Fuzzy-Expert-System"
 
 [[project]]
-title = "Brawlhalla"
-category = "Applications"
-image = "./config/assets/projects/project-4.png"
-url = "https://github.com/ivansaul/flutter_coffee_shop_app#screenshots"
+title = "CIFAR 10 Image Classification"
+category = "Artificial Intelligence"
+image = "./config/assets/projects/cifar10.png"
+url = "https://github.com/Amirparsa-Sal/CIFAR10-Image-Classification"
 
 [[project]]
-title = "DSM."
-category = "Web design"
-image = "./config/assets/projects/project-5.png"
-url = "https://github.com/ivansaul/flutter_todo_app#screenshots"
+title = "Arduino Projects"
+category = "Hardware"
+image = "./config/assets/projects/micro.png"
+url = "https://github.com/Amirparsa-Sal/Micro-Processor-Assembly-Lab"
 
 [[project]]
-title = "MetaSpark"
-category = "Web design"
-image = "./config/assets/projects/project-6.png"
-url = "https://github.com/ivansaul/flutter_todo_app#screenshots"
+title = "Information Retreival Search Engine"
+category = "Artificial Intelligence"
+image = "./config/assets/projects/information-ret.png"
+url = "https://github.com/Amirparsa-Sal/Information-Retrieval-Search-Engine"
 
 [[project]]
-title = "Summary"
-category = "Web development"
-image = "./config/assets/projects/project-7.png"
-url = "https://github.com/ivansaul/codigo_facilito_downloader"
+title = "Telegram Teaching Assistant Bot"
+category = "Web Development"
+image = "./config/assets/projects/ta-bot.png"
+url = "https://github.com/Amirparsa-Sal/TA-BOT"
 
 [[project]]
-title = "Task Manager"
-category = "Applications"
-image = "./config/assets/projects/project-8.jpg"
-url = "https://github.com/ivansaul/flutter_coffee_shop_app#screenshots"
-
-[[project]]
-title = "Arrival"
-category = "Web development"
-image = "./config/assets/projects/project-9.png"
-url = "https://github.com/ivansaul/flutter_cinemapedia_app#screenshots"
+title = "URL Shortener"
+category = "Web Development"
+image = "./config/assets/projects/url-shortener.png"
+url = "https://github.com/Amirparsa-Sal/Url-Shortener"

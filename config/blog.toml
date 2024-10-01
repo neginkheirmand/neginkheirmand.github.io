@@ -1,47 +1,7 @@
 [[post]]
-category = "Design"
-title = "Design conferences in 2022"
-subtitle = "Veritatis et quasi architecto beatae vitae dicta sunt, explicabo."
-datetime = "2022-02-23"
-image = "./config/assets/posts/blog-1.jpg"
-url = "https://medium.com"
-
-[[post]]
-category = "Design"
-title = "Best fonts every designer"
-subtitle = "Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi"
-datetime = "2022-02-23"
-image = "./config/assets/posts/blog-2.jpg"
-url = "https://dev.to"
-
-[[post]]
-category = "Design"
-title = "Design digest #80"
-subtitle = "Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit"
-datetime = "2022-02-23"
-image = "./config/assets/posts/blog-3.jpg"
-url = "https://hashnode.com"
-
-[[post]]
-category = "Design"
-title = "UI interactions of the week"
-subtitle = "Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi"
-datetime = "2022-02-23"
-image = "./config/assets/posts/blog-4.jpg"
-url = "https://dev.to"
-
-[[post]]
-category = "Design"
-title = "The Forgotten Art Of Spacing"
-subtitle = "Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
-datetime = "2022-02-23"
-image = "./config/assets/posts/blog-5.jpg"
-url = "https://medium.com"
-
-[[post]]
-category = "Design"
-title = "Design Digest #79"
-subtitle = "Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum"
-datetime = "2022-02-23"
-image = "./config/assets/posts/blog-6.jpg"
-url = "https://hashnode.com"
+category = "Arxiv"
+title = "PenSLR: Persian end-to-end Sign Language Recognition Using Ensembling"
+subtitle = "Sign Language Recognition (SLR) is a fast-growing field that aims to fill the communication gaps between the hearing-impaired and people without hearing loss. Existing solutions for Persian Sign Language (PSL) are limited to word-level interpretations, underscoring the need for more advanced and comprehensive solutions. Moreover, previous work on other languages mainly focuses on manipulating the neural network architectures or hardware configurations instead of benefiting from the aggregated results of multiple models. In this paper, we introduce PenSLR, a glove-based sign language system consisting of an Inertial Measurement Unit (IMU) and five flexible sensors powered by a deep learning framework capable of predicting variable-length sequences. We achieve this in an end-to-end manner by leveraging the Connectionist Temporal Classification (CTC) loss function, eliminating the need for segmentation of input signals. To further enhance its capabilities, we propose a novel ensembling technique by leveraging a multiple sequence alignment algorithm known as Star Alignment. Furthermore, we introduce a new PSL dataset, including 16 PSL signs with more than 3000 time-series samples in total. We utilize this dataset to evaluate the performance of our system based on four word-level and sentence-level metrics. Our evaluations show that PenSLR achieves a remarkable word accuracy of 94.58% and 96.70% in subject-independent and subject-dependent setups, respectively. These achievements are attributable to our ensembling algorithm, which not only boosts the word-level performance by 0.51% and 1.32% in the respective scenarios but also yields significant enhancements of 1.46% and 4.00%, respectively, in sentence-level accuracy."
+datetime = "2024-06-24"
+image = "./config/assets/pubs/penslr3.png"
+url = "https://arxiv.org/abs/2406.16388"

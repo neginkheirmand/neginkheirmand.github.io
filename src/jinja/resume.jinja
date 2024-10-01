@@ -21,9 +21,13 @@
 
       <li class="timeline-item">
 
-        <h4 class="h4 timeline-item-title">{{education.title}}</h4>
+        <h4 class="h4 timeline-item-title">{{education.title}}
 
-        <span>{{education.timeline}}</span>
+        <span style="float:right;">{{education.timeline}}</span>
+        <p class="timeline-text">
+          {{education.discipline}}
+        </p>
+        </h4>
 
         <p class="timeline-text">
           {{education.description}}
@@ -44,22 +48,29 @@
         <ion-icon name="book-outline"></ion-icon>
       </div>
 
-      <h3 class="h3">Experience</h3>
+      <h3 class="h3">Research Experience</h3>
     </div>
 
     <ol class="timeline-list">
 
-      {% for experience in resume.experience | reverse %}
+      {% for research in resume.research | reverse %}
 
       <li class="timeline-item">
 
-        <h4 class="h4 timeline-item-title">{{experience.title}}</h4>
+        <h4 class="h4 timeline-item-title">{{research.title}}
 
-        <span>{{experience.timeline}}</span>
+        <span style="float:right;">{{research.timeline}}</span>
 
-        <p class="timeline-text">
-          {{experience.description}}
-        </p>
+        <p class="timeline-text" style="color:var(--vegas-gold)">
+          {{research.institution}} - {{research.supervisor}}
+        </p> </h4>
+
+        <p class="timeline-text"> {{research.description}} </p>
+        <ul>
+          {% for bullet in research.bullets %}
+            <li> <p class="timeline-text"> - {{bullet}} </li>
+          {% endfor %}
+        </ul>
 
       </li>
 
@@ -69,7 +80,47 @@
 
   </section>
 
-  <!-- Languages -->
+
+  <section class="timeline">
+
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="book-outline"></ion-icon>
+      </div>
+
+      <h3 class="h3">Work Experience</h3>
+    </div>
+
+    <ol class="timeline-list">
+
+      {% for work in resume.work | reverse %}
+
+      <li class="timeline-item">
+
+        <h4 class="h4 timeline-item-title">{{work.title}}, {{work.company}}
+
+        <span style="float:right;">{{work.timeline}}</span>
+
+        <p class="timeline-text" style="color:var(--vegas-gold)">
+          {{work.city}}, {{work.country}}
+        </p> </h4>
+
+        <p class="timeline-text"> {{work.description}} </p>
+        <ul>
+          {% for bullet in work.bullets %}
+            <li> <p class="timeline-text"> - {{bullet}} </li>
+          {% endfor %}
+        </ul>
+
+      </li>
+
+      {% endfor %}
+
+    </ol>
+
+  </section>
+
+  <!-- Languages 
   {% if resume.languages.enabled %}
   <section class="skill">
 
@@ -97,12 +148,107 @@
 
     </ul>
 
+  </section> -->
+
+
+  <section class="timeline">
+
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="book-outline"></ion-icon>
+      </div>
+
+      <h3 class="h3">Freelance Projects</h3>
+    </div>
+
+    <ol class="timeline-list">
+
+      {% for freelance in resume.freelance | reverse %}
+
+      <li class="timeline-item">
+
+        <h4 class="h4 timeline-item-title">{{freelance.title}}
+
+        <span style="float:right;">{{freelance.timeline}}</span>
+
+        <p class="timeline-text" style="color:var(--vegas-gold)">
+          {{freelance.city}}, {{freelance.country}}
+        </p> </h4>
+
+        <p class="timeline-text"> {{freelance.description}} </p>
+        <ul>
+          {% for bullet in freelance.bullets %}
+            <li> <p class="timeline-text"> - {{bullet}} </li>
+          {% endfor %}
+        </ul>
+
+      </li>
+
+      {% endfor %}
+
+    </ol>
+
   </section>
+
+
+  <section class="timeline">
+
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="book-outline"></ion-icon>
+      </div>
+
+      <h3 class="h3">Teaching Experience</h3>
+    </div>
+
+    <ol class="timeline-list">
+
+      {% for teaching in resume.teaching | reverse %}
+
+      <li class="timeline-item">
+
+        <h4 class="h4 timeline-item-title">{{teaching.title}}
+
+        <span style="float:right;">{{teaching.timeline}}</span>
+
+        <p class="timeline-text" style="color:var(--vegas-gold)">
+          {{teaching.supervisor}}
+        </p> </h4>
+      </li>
+      
+      {% endfor %}
+
+    </ol>
   <br>
   {% endif %}
 
 
-  <!-- My Skills -->
+  <section class="timeline">
+
+    <div class="title-wrapper">
+        <div class="icon-box">
+            <ion-icon name="book-outline"></ion-icon>
+        </div>
+
+        <h3 class="h3">Certificates</h3>
+    </div>
+    <ol class="timeline-list">
+        <ul class="clients-list has-scrollbar">
+            {% for certificate in resume.certificate %}
+              <li class="clients-item">
+                  <a href="#">
+                      <img src={{certificate.image}} alt="client logo">
+                  </a>
+                  <p class="service-item-text">
+                      {{certificate.title}}
+                  </p>
+              </li>
+            {% endfor %}
+        </ul>
+    </ol>
+  </section>
+
+  <!-- My Skills 
 
   {% if resume.skills.enabled %}
   <section class="skill">
@@ -132,6 +278,6 @@
     </ul>
 
   </section>
-  {% endif %}
+  {% endif %} -->
 
 </article>

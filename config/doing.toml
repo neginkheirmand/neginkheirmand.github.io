@@ -1,19 +1,23 @@
 [[doing]]
-title = "Mobile Apps"
-icon = "./config/assets/icons/mobile.svg"
-text = "Professional development of applications for iOS and Android."
+title = "Data Mining & Deep Learning"
+icon = "./config/assets/icons/analytics.svg"
+# icon = "analytics"
+text = "I am passionate about leveraging data mining and deep learning approaches to solve complex problems across various domains. My primary focus lies in applying these algorithms to time series data, gaining valuable insights from temporal patterns."
 
 [[doing]]
-title = "Scripting"
-icon = "./config/assets/icons/code.svg"
-text = "Automation and task scripting using Python to enhance efficiency and productivity."
+title = "Computer Vision"
+icon = "./config/assets/icons/aperture.svg"
+# icon = "aperture"
+text = "Working with images has always been one of my core interests, leading me to explore different computer vision tasks. I have completed several projects in areas such as Object Detection, Face Reconstruction, and Image Classification."
 
 [[doing]]
-title = "UI/UX Designing"
-icon = "./config/assets/icons/compass.svg"
-text = "Intuitive and visually appealing user interfaces and user experiences."
+title = "AI in Sports Analytics"
+icon = "./config/assets/icons/football.svg"
+# icon = "football"
+text = "Working with sports data combines my two passions: Sports, especially football, and AI. During my Bachelor thesis, I focused on extracting chance creation patterns in football teams, giving me the opportunity to delve into this exciting field."
 
 [[doing]]
-title = "Web Development"
-icon = "./config/assets/icons/laptop-code.svg"
-text = "High-quality development of sites at the professional level."
+title = "Gesture Recognition"
+icon = "./config/assets/icons/hand-left.svg"
+# icon = "hand-right"
+text = "In addition to the software side, I found working with microcontrollers and sensors to be incredibly fascinating. In my first academic paper, we developed an end-to-end approach to detect Persian Sign Language glosses. I believe this area holds immense potential for advancing human-computer interaction."

@@ -1,37 +1,172 @@
 ############## Education config #################
 #################################################
 [[education]]
-title = "High school of art and design"
-timeline = "2002 — 2004"
-description = "Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur magni dolores eos."
+title = "Allameh Helli High School (NODET), Tehran, Iran"
+timeline = "2016 — 2019"
+discipline = "Mathematics & Physics"
+description = "GPA: 19.45/20 = 4/4"
 
 [[education]]
-title = "New york academy of art"
-timeline = "2006 — 2007"
-description = "Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est omnis.."
+title = "Amirkabir University of Technology, Tehran, Iran"
+timeline = "2019 — 2024"
+discipline = "Computer Engineering"
+description = "GPA: 18.16/20 = 3.83/4"
 
-[[education]]
-title = "University school of the arts"
-timeline = "2007 — 2008"
-description = "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
-
-
-############## Experience config ################
+############## Research config ################
 #################################################
-[[experience]]
-title = "Web designer"
-timeline = "2010 — 2013"
-description = "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
 
-[[experience]]
-title = "Art director"
-timeline = "2013 — 2015"
-description = "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
+[[research]]
+title = "Undergraduate Research Assistant"
+timeline = "Feb 2022 — Jun 2022"
+institution = "Amirkabir Uni. of Tech."
+supervisor = "Dr. Reza Safabakhsh"
+description = "As part of the ‘Research and Technical Representation’ course at AUT, I conducted an in-depth study on <b>classic edge detection algorithms for grayscale images</b> . The research included:"
+bullets = [
+    "Conducting a comprehensive literature review on traditional edge detection methods",
+    "Implementing algorithms such as Sobel, Prewitt, Roberts Cross, LoG, Boolean Function, and Canny using OpenCV, followed by a comparative analysis of their performance"
+]
 
-[[experience]]
-title = "Creative director"
-timeline = "2015 — Present"
-description = "Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur."
+[[research]]
+title = "Undergraduate Research Assistant"
+timeline = "Jan 2022 — Apr 2024"
+institution = "Amirkabir Uni. of Tech."
+supervisor = "Dr. Hamed Farbeh"
+description = "In my first academic paper, my colleagues and I developed a cutting-edge <b>sign language recognition system</b>. Our main contributions included:"
+bullets = [
+    "Designing a specialized sign language glove equipped with Arduino and five flexible sensors",
+    "Collecting the largest Persian Sign Language dataset at the time.",
+    "Implementing an end-to-end deep learning framework for accurate sign language recognition using CTC loss function",
+    "Introducing a novel ensembling algorithm for grammar-agnostic sequence-to-sequence tasks"
+]
+
+[[research]]
+title = "Undergraduate Research Assistant"
+timeline = "Dec 2023 — Aug 2024"
+institution = "Amirkabir Uni. of Tech."
+supervisor = "Dr. Ehsan Nazerfard"
+description = "For my Bachelor's thesis I developed a data mining system to <b>extract offensive chance creation patterns in football teams</b>. The project included:"
+bullets = [
+    "Preprocessing Statsbomb ball-event data to extract relevant time series data",
+    "Applying time series clustering algorithms to group data based on spatial features",
+    "Ranking the clusters based on user relevance",
+    "Utilizing sequence matching algorithms to identify and rank offensive tactical patterns",
+    "Implementing a visual dashboard enhance project usability for target users"
+]
+
+############## Work config ################
+#################################################
+[[work]]
+title = "Backend Developer"
+company = "Farazpardazan"
+timeline = "Mar 2021 — Aug 2021"
+city = "Tehran"
+country = "Iran"
+description = ""
+bullets = [
+    "Developed Ayandeh Bank Customer Club web app APIs using Spring framework.",
+    "Worked with databases like MySQL and PostgreSQL and optimized queries.",
+    "Learned agile software development method.",
+]
+
+[[work]]
+title = "Backend Developer"
+company = "Danio"
+timeline = "Mar 2022 - May 2022"
+city = "Tehran"
+country = "Iran"
+description = ""
+bullets = [
+    "Developed APIs using Django REST framework.",
+    "Deployed backend and frontend servers using Docker.",
+]
+
+[[work]]
+title = "Artificial Intelligence Intern"
+company = "AI Medic"
+timeline = "Jul 2022 — Sep 2022"
+city = "Tehran"
+country = "Iran"
+description = ""
+bullets = [
+    "Studied various CNN architectures such as LeNet, AlexNet, VGGNet, GoogleNet, and ResNet.",
+    "Implemented a CAPTCHA recognision system using Tensorflow.",
+    "Ranked in the top 3 out of 50+ interns, securing a full-time job offer."
+]
+
+############## Freelance config ################
+#################################################
+[[freelance]]
+title = "Detecting Parasites in Pets Microscopic Images"
+timeline = "Sep 2022 - April 2023"
+city = "Berlin"
+country = "Germany (Remote)"
+description = "An <b>object detection system</b> to detect and locate pets parasites in microscopic images"
+bullets = [
+    "Utilized object detection models (YOLO, Faster RCNN, RetinaNet) to detect pets parasites.",
+    "Designed a Flask web server to upload the samples and recieve the results.",
+    "Deployed the project on an Amazon EC2 instance. (Delievered to a real laboratory)"
+]
+
+[[freelance]]
+title = "Perfume Recommendation System"
+timeline = "May 2024 — Oct 2024"
+city = "Tehran"
+country = "Iran"
+description = "A system for <b>recommending perfumes</b> to customers in perfume shops"
+bullets = [
+    "Utilized clustering algorithms to cluster perfumes based on their accords and notes.",
+    "Implemented a recommendation system based on users preference."
+]
+
+############## Teaching config ####################
+#################################################
+
+[[teaching]]
+title = "Fundamentals of Programming"
+timeline = "Fall 2020"
+supervisor = "Dr. Hossein Zainali"
+
+[[teaching]]
+title = "Advanced Programming"
+timeline = "Spring 2021"
+supervisor = "Dr. Hossein Zeinali"
+
+[[teaching]]
+title = "Internet of Things"
+timeline = "Spring 2023"
+supervisor = "Dr. Siavash Khorsandi"
+
+[[teaching]]
+title = "Principles of Computational Intelligence"
+timeline = "Spring 2023, Fall 2023"
+supervisor = "Dr. Mohammad Mehdi Ebadzadeh"
+
+[[teaching]]
+title = "Elementary Image Processing"
+timeline = "Fall 2023"
+supervisor = "Dr. Hamed Azarnoush"
+
+############## Certificates config ####################
+#################################################
+[[certificate]]
+title = "Neural Networks and Deep Learning"
+image = "./config/assets/certificates/NNDL.png"
+
+[[certificate]]
+title = "Structuring Machine Learning Projects"
+image = "./config/assets/certificates/SMLP.png"
+
+[[certificate]]
+title = "Improving Deep Neural Networks"
+image = "./config/assets/certificates/IDNN.png"
+
+[[certificate]]
+title = "NLP with Classification and Vector Spaces"
+image = "./config/assets/certificates/NLPCV.png"
+
+[[certificate]]
+title = "NLP with Probabilistic Models"
+image = "./config/assets/certificates/NLPPM.png"
 
 
 ############## Skills config ####################

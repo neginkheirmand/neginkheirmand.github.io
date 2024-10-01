@@ -1,8 +1,8 @@
 <!-- blog.jinja -->
-<article class="blog" data-page="blog">
+<article class="blog" data-page="publications">
 
   <header>
-    <h2 class="h2 article-title">Blog</h2>
+    <h2 class="h2 article-title">Publications</h2>
   </header>
 
   <section class="blog-posts">
@@ -28,15 +28,23 @@
               <time datetime="{{post.datetime}}">{{post.datetime | format_date}}</time>
             </div>
 
-            <h3 class="h3 blog-item-title">{{post.title}}</h3>
-
-            <p class="blog-text">
-              {{post.subtitle}}
-            </p>
+            <h3 class="h3 blog-item-title">{{post.title}}</h3> </a>
+            
+            
+              {% set sentences = post.subtitle.split('.') %}
+              <p class="blog-text">
+                {{ sentences[:2]|join('.') }}.
+              </p>
+              {% if sentences|length > 2 %}
+                <button class="read-more-btn" onclick="toggleAbstract(this)" data-post-id="{{ loop.index }}">Read more</button>
+              {% endif %}
+              <p class="blog-text" id="abstract-{{ loop.index }}" style="display: none;">
+                {{ post.subtitle }}
+              </p>
+            
 
           </div>
 
-        </a>
       </li>
 
       {% endfor %}
