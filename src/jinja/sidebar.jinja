@@ -29,6 +29,7 @@
 
       <li class="contact-item">
 
+        <a href="mailto:{{about.email}}" class="contact-link">
         <div class="icon-box">
           <ion-icon name="mail-outline"></ion-icon>
         </div>
@@ -36,13 +37,14 @@
         <div class="contact-info">
           <p class="contact-title">Email</p>
 
-          <a href="#" class="contact-link">{{about.email}}</a>
+          {{about.email}}
+        </a>
         </div>
 
       </li>
 
       <li class="contact-item">
-
+        <a href="tel:{{about.phone}}" class="contact-link">
         <div class="icon-box">
           <ion-icon name="phone-portrait-outline"></ion-icon>
         </div>
@@ -50,7 +52,8 @@
         <div class="contact-info">
           <p class="contact-title">Phone</p>
 
-          <a href="tel:{{about.phone}}" class="contact-link">{{about.phone}}</a>
+          {{about.phone}}
+        </a>
         </div>
 
       </li>
