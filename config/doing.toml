@@ -2,7 +2,7 @@
 title = "Data Mining & Deep Learning"
 icon = "./config/assets/icons/analytics.svg"
 # icon = "analytics"
-text = "I am passionate about leveraging data mining and deep learning approaches to solve complex problems across various domains. My primary focus lies in applying these algorithms to time series data, gaining valuable insights from temporal patterns."
+text = "I am passionate about leveraging data mining and deep learning approaches to solve complex problems across various domains. My primary focus lies in applying these algorithms to time series data, gaining valuable insights from spatio-temporal patterns."
 
 [[doing]]
 title = "Computer Vision"
@@ -17,7 +17,7 @@ icon = "./config/assets/icons/football.svg"
 text = "Working with sports data combines my two passions: Sports, especially football, and AI. During my Bachelor thesis, I focused on extracting chance creation patterns in football teams, giving me the opportunity to delve into this exciting field."
 
 [[doing]]
-title = "Gesture Recognition"
+title = "Human Computer Interaction"
 icon = "./config/assets/icons/hand-left.svg"
 # icon = "hand-right"
 text = "In addition to the software side, I found working with microcontrollers and sensors to be incredibly fascinating. In my first academic paper, we developed an end-to-end approach to detect Persian Sign Language glosses. I believe this area holds immense potential for advancing human-computer interaction."
