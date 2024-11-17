@@ -8,6 +8,7 @@ location = "Tehran, Iran"
 avatar = "./config/assets/avatars/avatar.jpeg"
 username = "neginkheirmand" # <-- github user name
 presentation = """
+#TODO
 I’m a Computer Engineering graduate from Amirkabir University of Technology (AUT) in Iran. My interest in AI began during high school, where I was fascinated by its potential to transform the world. This passion led me to focus on AI throughout my studies at AUT, allowing me to gain a deep understanding of this growing field.
                        
 What makes my approach unique is that I don’t limit myself to one specific area of AI. I believe in exploring different concepts like Data Mining, Computer Vision, NLP and Trustworthy AI. This broader perspective helps me come up with new ideas and tackle a variety of challenges.
