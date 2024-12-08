@@ -1,5 +1,6 @@
 from datetime import datetime
 
+import markdown
 import toml  # type: ignore
 from jinja2 import Environment, FileSystemLoader  # type: ignore
 
@@ -67,7 +68,9 @@ class Portfolio:
         for project in projects:
             filters.append(project["category"])
         return set(filters)
-
+    
+    def convert_markdown_to_html(self, markdown_text: str):
+        return markdown.markdown(markdown_text)
 
 if __name__ == "__main__":
     portfolio = Portfolio()
@@ -80,6 +83,9 @@ if __name__ == "__main__":
     projects = portfolio.projects()
     blog = portfolio.blog()
     categories = portfolio.categories()
+
+    # Convert Markdown in the 'presentation' field to HTML
+    about["presentation"] = portfolio.convert_markdown_to_html(about["presentation"])
 
     env = Environment(loader=FileSystemLoader("src/jinja"))
     env.filters["format_date"] = portfolio.format_date

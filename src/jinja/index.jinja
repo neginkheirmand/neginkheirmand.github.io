@@ -7,19 +7,19 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="{{about.presentation}}">
+  <meta name="description" content="{{ about.presentation | safe }}">
   <meta property="og:locale" content="en_US">
   <meta property="og:type" content="product">
   <meta property="og:url" content="https://{{about.username}}.github.io">
   <meta property="og:title" content="{{about.name}} {{about.lastname}} | {{about.rol}} | Portfolio">
-  <meta property="og:description" content="{{about.presentation}}">
+  <meta property="og:description" content="{{ about.presentation | safe }}">
   <meta property="og:image" content="{{about.avatar}}">
   <meta property="og:image:secure_url" content="{{about.avatar}}">
   <meta property="og:site_name" content="{{about.name}} {{about.lastname}} | {{about.rol}} | Portfolio">
   <meta name="twitter:card" content="photo">
   <meta name="twitter:creator" content="@{{about.username}}">
   <meta name="twitter:title" content="{{about.name}} {{about.lastname}} | {{about.rol}} | Portfolio">
-  <meta name="twitter:description" content="{{about.presentation}}">
+  <meta name="twitter:description" content="{{ about.presentation | safe }}">
   <meta name="twitter:image" content="{{about.avatar}}">
   <meta name="twitter:image:width" content="200">
   <meta name="twitter:image:height" content="200">
