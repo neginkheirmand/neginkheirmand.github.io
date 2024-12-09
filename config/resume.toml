@@ -46,11 +46,11 @@ institution = "Amirkabir Uni. of Tech."
 supervisor = "Dr. Mostafa Chehreghani"
 description = "For my Bachelor's thesis, I implemented a framework to <b>rank influential nodes in complex networks</b> using convolutional neural networks. The project was highly inspired by this paper included:"  
 bullets = [  
-    "<b>Extracting node features</b> using different centrality metrics to capture local topological information",  
-    "Constructing <b>one-hop adjacency matrices and multi-scale feature embeddings</b> for nodes",  
-    "Training a <b>convolutional neural network to predict node influence scores</b> as a regression task",  
-    "Generating ground truth labels using the <b>SIR</b> model to simulate information diffusion",  
-    "Evaluating the framework against benchmarks on real-world and synthetic networks using <b>Kendall's τ and MAP metrics</b>",  
+    "<u>Extracting node features</u> using different centrality metrics to capture local topological information",  
+    "Constructing <u>one-hop adjacency matrices and multi-scale feature embeddings</u> for nodes",  
+    "Training a <u>convolutional neural network to predict node influence scores</u> as a regression task",  
+    "Generating ground truth labels using the <u>SIR</u> model to simulate information diffusion",  
+    "Evaluating the framework against benchmarks on real-world and synthetic networks using <u>Kendall's τ and MAP metrics</u>",  
     "Implementing a visual dashboard enhance project usability for target users"
 ]  
 
