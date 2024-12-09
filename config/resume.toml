@@ -1,10 +1,10 @@
 ############## Education config #################
 #################################################
 [[education]]
-title = "Allameh Helli High School (NODET), Tehran, Iran"
+title = "Salam Resalat High School, Tehran, Iran"
 timeline = "2016 — 2019"
 discipline = "Mathematics & Physics"
-description = "GPA: 19.45/20 = 4/4"
+description = "GPA: 18.52/20 = 3.9/4"
 
 [[education]]
 title = "Amirkabir University of Technology, Tehran, Iran"
@@ -41,17 +41,18 @@ bullets = [
 
 [[research]]
 title = "Undergraduate Research Assistant"
-timeline = "Dec 2023 — Aug 2024"
+timeline = "Apr 2024 — Dec 2024"
 institution = "Amirkabir Uni. of Tech."
-supervisor = "Dr. Ehsan Nazerfard"
-description = "For my Bachelor's thesis I developed a data mining system to <b>extract offensive chance creation patterns in football teams</b>. The project included:"
-bullets = [
-    "Preprocessing Statsbomb ball-event data to extract relevant time series data",
-    "Applying time series clustering algorithms to group data based on spatial features",
-    "Ranking the clusters based on user relevance",
-    "Utilizing sequence matching algorithms to identify and rank offensive tactical patterns",
+supervisor = "Dr. Mostafa Chehreghani"
+description = "For my Bachelor's thesis, I implemented a framework to <b>rank influential nodes in complex networks</b> using convolutional neural networks. The project was highly inspired by this paper included:"  
+bullets = [  
+    "<b>Extracting node features</b> using different centrality metrics to capture local topological information",  
+    "Constructing <b>one-hop adjacency matrices and multi-scale feature embeddings</b> for nodes",  
+    "Training a <b>convolutional neural network to predict node influence scores</b> as a regression task",  
+    "Generating ground truth labels using the <b>SIR</b> model to simulate information diffusion",  
+    "Evaluating the framework against benchmarks on real-world and synthetic networks using <b>Kendall's τ and MAP metrics</b>",  
     "Implementing a visual dashboard enhance project usability for target users"
-]
+]  
 
 ############## Work config ################
 #################################################
@@ -131,20 +132,6 @@ title = "Advanced Programming"
 timeline = "Spring 2021"
 supervisor = "Dr. Hossein Zeinali"
 
-[[teaching]]
-title = "Internet of Things"
-timeline = "Spring 2023"
-supervisor = "Dr. Siavash Khorsandi"
-
-[[teaching]]
-title = "Principles of Computational Intelligence"
-timeline = "Spring 2023, Fall 2023"
-supervisor = "Dr. Mohammad Mehdi Ebadzadeh"
-
-[[teaching]]
-title = "Elementary Image Processing"
-timeline = "Fall 2023"
-supervisor = "Dr. Hamed Azarnoush"
 
 ############## Certificates config ####################
 #################################################
