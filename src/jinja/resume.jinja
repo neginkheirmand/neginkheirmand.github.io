@@ -222,31 +222,30 @@
   <br>
   {% endif %}
 
-
+  
   <section class="timeline">
-
-    <div class="title-wrapper">
-        <div class="icon-box">
-            <ion-icon name="book-outline"></ion-icon>
-        </div>
-
-        <h3 class="h3">Certificates</h3>
-    </div>
-    <ol class="timeline-list">
-        <ul class="clients-list has-scrollbar">
-            {% for certificate in resume.certificate %}
-              <li class="clients-item">
-                  <a href="#">
-                      <img src={{certificate.image}} alt="client logo">
-                  </a>
-                  <p class="service-item-text">
-                      {{certificate.title}}
-                  </p>
-              </li>
-            {% endfor %}
-        </ul>
-    </ol>
+      <div class="title-wrapper">
+          <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+          </div>
+          <h3 class="h3">Certificates</h3>
+      </div>
+      <ol class="timeline-list">
+          <ul class="clients-list has-scrollbar">
+              {% for certificate in resume.certificate %}
+                <li class="clients-item">
+                    <a href="{{ certificate.url }}" target="_blank">
+                        <img src="{{ certificate.image }}" alt="client logo">
+                    </a>
+                    <p class="service-item-text">
+                        {{ certificate.title }}
+                    </p>
+                </li>
+              {% endfor %}
+          </ul>
+      </ol>
   </section>
+
 
   <!-- My Skills 
 
