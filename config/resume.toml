@@ -56,42 +56,38 @@ bullets = [
 
 ############## Work config ################
 #################################################
+############## Work config ################
+#################################################
 [[work]]
-title = "Backend Developer"
-company = "Farazpardazan"
-timeline = "Mar 2021 — Aug 2021"
+title = "Back-end Developer"
+company = "Hasin Group"
+timeline = "Mar 2022 - Apr 2023"
 city = "Tehran"
 country = "Iran"
 description = ""
 bullets = [
-    "Developed Ayandeh Bank Customer Club web app APIs using Spring framework.",
-    "Worked with databases like MySQL and PostgreSQL and optimized queries.",
-    "Learned agile software development method.",
+    "Architected and implemented a suite of four scalable REST API services for a banking client, leveraging microservices architecture to enhance system performance and modularity",
+    "Independently conceptualized, designed, and developed a comprehensive microservices chassis, taking sole responsibility for creating a robust foundational framework that enabled future service expansion and integration"
+    "Engineered backend solutions using C#, optimizing application reliability, performance, and scalability through strategic architectural design",
+    "Collaborated with cross-functional teams to develop and maintain high-performance, production-grade microservices that met critical banking industry standards"
 ]
 
 [[work]]
-title = "Backend Developer"
-company = "Danio"
-timeline = "Mar 2022 - May 2022"
+title = "System Administrator & Blockchain Researcher"
+company = "Shenasa (Chainova Studio)"
+timeline = "Dec 2020 - Sep 2021"
 city = "Tehran"
 country = "Iran"
 description = ""
 bullets = [
-    "Developed APIs using Django REST framework.",
-    "Deployed backend and frontend servers using Docker.",
-]
-
-[[work]]
-title = "Artificial Intelligence Intern"
-company = "AI Medic"
-timeline = "Jul 2022 — Sep 2022"
-city = "Tehran"
-country = "Iran"
-description = ""
-bullets = [
-    "Studied various CNN architectures such as LeNet, AlexNet, VGGNet, GoogleNet, and ResNet.",
-    "Implemented a CAPTCHA recognision system using Tensorflow.",
-    "Ranked in the top 3 out of 50+ interns, securing a full-time job offer."
+   "Managed critical infrastructure services for multiple startups, supporting key database technologies including PostgreSQL, MongoDB, and SQL Server",
+   "Implemented comprehensive server deployment and configuration strategies, ensuring optimal performance and reliability of production environments",
+   "Orchestrated enterprise collaboration tools ecosystem by setting up and maintaining local instances of Confluence, Jira, and secure VPN services",
+   "Executed robust backup and disaster recovery solutions using Veeam, ensuring data integrity and business continuity",
+   "Conducted comprehensive research on Hyperledger technologies, identifying and recommending optimal blockchain frameworks for diverse organizational needs",
+   "Developed specialized blockchain services, including implementations of decentralized exchange (DEX) platforms, Wallet as a Service (WaaS), and blockchain-based voting systems",
+   "Served as a key knowledge transfer resource, conducting technical training and knowledge sharing sessions on Hyperledger technologies for cross-functional teams",
+   "Successfully implemented and operationalized a Hyperledger Fabric blockchain solution, demonstrating end-to-end expertise from research to production deployment"
 ]
 
 ############## Freelance config ################
@@ -138,12 +134,12 @@ supervisor = "Dr. Hossein Zeinali"
 [[certificate]]
 title = "Certificate of 2nd place - Robocup IRAN OPEN 2018 (Echoic Team - Rescue Virtual Robot)"
 image = "./config/assets/certificates/Echoic2.png"
-url = "https://example.com/Echoic2"
+url = "https://github.com/neginkheirmand/neginkheirmand.github.io/blob/master/config/assets/certificates/Echoic2.jpg?raw=true"
 
 [[certificate]]
 title = "Certificate of Participation - Robocup IRAN OPEN 2018 (Echoic Team - Rescue Virtual Robot)"
 image = "./config/assets/certificates/Echoic1.png"
-url = "https://example.com/Echoic1"
+url = "https://github.com/neginkheirmand/neginkheirmand.github.io/blob/master/config/assets/certificates/Echoic1.jpg?raw=true"
 
 [[certificate]]
 title = "Neural Networks and Deep Learning"
