@@ -5,3 +5,19 @@ subtitle = "Sign Language Recognition (SLR) is a fast-growing field that aims to
 datetime = "2024-06-24"
 image = "./config/assets/pubs/penslr3.png"
 url = "https://arxiv.org/abs/2406.16388"
+
+[[post]]
+category = "RoboCup"
+title = "Echoic Rescue Team Description Paper (RoboCup 2018 Virtual Robot League)"
+subtitle = """The Echoic team participated in the RoboCup 2018 Virtual Robot League, focusing on multi-robot exploration and visual victim detection. Using the SLAM Gmapping package and multi-agent flood exploration strategies, our team developed an approach to construct a global shared map for better area coverage. Additionally, we leveraged convolutional neural networks (CNNs) for victim detection, balancing computational efficiency and detection accuracy. A graphical interface was implemented to enhance robot control and simplify parameter tuning. These innovations aimed to advance rescue robotics by reducing time and improving detection reliability in simulated disaster environments. Over three consecutive years of participation in RoboCup, team echoic secured <a href="https://www.robocup.org/leagues/27">second</a> and <a href="https://www.robocup.org/leagues/27">third</a> places in the first and second years. Although unable to attend RoboCup in the final year due to personal issues, we participated in the Robocup(IRAN OPEN) robotics competition and won second place."""
+datetime = "2018-07-01"
+image = "./config/assets/pubs/TDP-Echoic-2018(3).png"
+url = "https://staff.fnwi.uva.nl/a.visser/activities/robocup/RoboCup2018/TDPs/TDP-Echoic-2018-draft.pdf" 
+
+[[post]]
+category = "Applied Intelligence"
+title = "Learning to Rank Influential Nodes in Complex Networks via Convolutional Neural Networks"
+subtitle = "This paper introduces a novel framework leveraging convolutional neural networks (CNNs) to rank influential nodes in complex networks. By extracting multi-scale topological features using degree and H-index centrality, the method generates feature embeddings for each node and trains a CNN model to predict influence scores. Using the Susceptible-Infectious-Recovered (SIR) model for label generation, this approach demonstrates state-of-the-art performance on both real-world and synthetic networks, evaluated using metrics such as Kendall's τ and MAP. The proposed framework is efficient, scalable, and applicable across diverse network structures."
+datetime = "2024-03-01"
+image = "./config/assets/pubs/influential_nodes.png"
+url = "https://doi.org/10.1007/s10489-024-05336-x"  # Use the correct DOI or link
