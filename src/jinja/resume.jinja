@@ -65,8 +65,8 @@
           {{research.institution}} - {{research.supervisor}}
         </p> </h4>
 
-        <p class="timeline-text"> {{research.description}} </p>
-        <ul>
+        <p class="timeline-text" > {{research.description}} </p>
+        <ul >
           {% for bullet in research.bullets %}
             <li> <p class="timeline-text"> - {{bullet}} </li>
           {% endfor %}
@@ -80,45 +80,49 @@
 
   </section>
 
+<section class="timeline">
 
-  <section class="timeline">
-
-    <div class="title-wrapper">
-      <div class="icon-box">
-        <ion-icon name="book-outline"></ion-icon>
-      </div>
-
-      <h3 class="h3">Work Experience</h3>
+  <div class="title-wrapper">
+    <div class="icon-box">
+      <ion-icon name="book-outline"></ion-icon>
     </div>
 
-    <ol class="timeline-list">
+    <h3 class="h3">Work Experience</h3>
+  </div>
 
-      {% for work in resume.work | reverse %}
+  <ol class="timeline-list">
 
-      <li class="timeline-item">
+    {% for work in resume.work | reverse %}
 
-        <h4 class="h4 timeline-item-title">{{work.title}}, {{work.company}}
+    <li class="timeline-item">
 
+      <h4 class="h4 timeline-item-title">{{work.title}}, {{work.company}}
         <span style="float:right;">{{work.timeline}}</span>
+      </h4>
 
-        <p class="timeline-text" style="color:var(--vegas-gold)">
-          {{work.city}}, {{work.country}}
-        </p> </h4>
+      <p class="timeline-text" style="color:var(--vegas-gold)">
+        {{work.city}}, {{work.country}}
+      </p>
+      
+      <!-- Displaying Description -->
+      {% if work.description %}
+        <p class="timeline-description">{{ work.description }}</p>
+      {% endif %}
 
-        <p class="timeline-text"> {{work.description}} </p>
-        <ul>
-          {% for bullet in work.bullets %}
-            <li> <p class="timeline-text"> - {{bullet}} </li>
-          {% endfor %}
-        </ul>
+      <ul>
+        {% for bullet in work.bullets %}
+          <li> <p class="timeline-text"> - {{bullet}} </p></li>
+        {% endfor %}
+      </ul>
 
-      </li>
+    </li>
 
-      {% endfor %}
+    {% endfor %}
 
-    </ol>
+  </ol>
 
-  </section>
+</section>
+
 
   <!-- Languages 
   {% if resume.languages.enabled %}

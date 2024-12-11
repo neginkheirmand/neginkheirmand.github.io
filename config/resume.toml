@@ -56,18 +56,16 @@ bullets = [
 
 ############## Work config ################
 #################################################
-############## Work config ################
-#################################################
 [[work]]
 title = "Back-end Developer"
 company = "Hasin Group"
 timeline = "Mar 2022 - Apr 2023"
 city = "Tehran"
 country = "Iran"
-description = ""
+description = "this is the description for the shenasa work i did"
 bullets = [
-    "Architected and implemented a suite of four scalable REST API services for a banking client, leveraging microservices architecture to enhance system performance and modularity",
-    "Independently conceptualized, designed, and developed a comprehensive microservices chassis, taking sole responsibility for creating a robust foundational framework that enabled future service expansion and integration"
+    "Architected and implemented a suite of multiple scalable REST API services for a banking client, leveraging microservices architecture to enhance system performance and modularity",
+    "Independently conceptualized, designed, and developed a comprehensive microservices chassis, taking sole responsibility for creating a robust foundational framework that enabled future service expansion and integration",
     "Engineered backend solutions using C#, optimizing application reliability, performance, and scalability through strategic architectural design",
     "Collaborated with cross-functional teams to develop and maintain high-performance, production-grade microservices that met critical banking industry standards"
 ]
@@ -78,7 +76,7 @@ company = "Shenasa (Chainova Studio)"
 timeline = "Dec 2020 - Sep 2021"
 city = "Tehran"
 country = "Iran"
-description = ""
+description = "Since i held two positions in this company i have divided my achievements in two different "
 bullets = [
    "Managed critical infrastructure services for multiple startups, supporting key database technologies including PostgreSQL, MongoDB, and SQL Server",
    "Implemented comprehensive server deployment and configuration strategies, ensuring optimal performance and reliability of production environments",
@@ -132,6 +130,11 @@ supervisor = "Dr. Hossein Zeinali"
 ############## Certificates config ####################
 #################################################
 [[certificate]]
+title = "Certificate of 2nd place - Tech Olympics 2024: Data Processing"
+image = "./config/assets/certificates/dataProcessing_TechOlympics.png"
+url = "https://quera.org/media/public/quera_certificate/b8fae211a6e54343994d1e4fc5f939b4.jpg"
+
+[[certificate]]
 title = "Certificate of 2nd place - Robocup IRAN OPEN 2018 (Echoic Team - Rescue Virtual Robot)"
 image = "./config/assets/certificates/Echoic2.png"
 url = "https://github.com/neginkheirmand/neginkheirmand.github.io/blob/master/config/assets/certificates/Echoic2.jpg?raw=true"
@@ -140,12 +143,6 @@ url = "https://github.com/neginkheirmand/neginkheirmand.github.io/blob/master/co
 title = "Certificate of Participation - Robocup IRAN OPEN 2018 (Echoic Team - Rescue Virtual Robot)"
 image = "./config/assets/certificates/Echoic1.png"
 url = "https://github.com/neginkheirmand/neginkheirmand.github.io/blob/master/config/assets/certificates/Echoic1.jpg?raw=true"
-
-[[certificate]]
-title = "Neural Networks and Deep Learning"
-image = "./config/assets/certificates/NNDL.png"
-url = "https://example.com/NNDL"
-
 
 [[certificate]]
 title = "Structuring Machine Learning Projects"
