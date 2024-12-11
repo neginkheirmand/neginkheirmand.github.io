@@ -136,8 +136,20 @@ supervisor = "Dr. Hossein Zeinali"
 ############## Certificates config ####################
 #################################################
 [[certificate]]
+title = "Certificate of 2nd place - Robocup IRAN OPEN 2018 (Echoic Team - Rescue Virtual Robot)"
+image = "./config/assets/certificates/Echoic2.png"
+url = "https://example.com/Echoic2"
+
+[[certificate]]
+title = "Certificate of Participation - Robocup IRAN OPEN 2018 (Echoic Team - Rescue Virtual Robot)"
+image = "./config/assets/certificates/Echoic1.png"
+url = "https://example.com/Echoic1"
+
+[[certificate]]
 title = "Neural Networks and Deep Learning"
 image = "./config/assets/certificates/NNDL.png"
+url = "https://example.com/NNDL"
+
 
 [[certificate]]
 title = "Structuring Machine Learning Projects"
