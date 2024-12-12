@@ -80,11 +80,11 @@ city = "Tehran"
 country = "Iran"
 description = "During my tenure as a System Administrator and DevOps Engineer, I was responsible for managing critical infrastructure services, ensuring optimal performance, and maintaining robust enterprise technologies for multiple startups:"
 bullets = [
-    "Managed critical infrastructure services for multiple startups, supporting key database technologies including PostgreSQL, MongoDB, and SQL Server",
-    "Implemented comprehensive server deployment and configuration strategies, ensuring optimal performance and reliability of production environments",
+    "Managed critical <b>infrastructure services</b> for multiple startups, supporting key database technologies including PostgreSQL, MongoDB, and SQL Server",
+    "Implemented comprehensive <b>server deployment and configuration strategies</b>, ensuring optimal performance and reliability of production environments",
     "Orchestrated enterprise collaboration tools ecosystem by setting up and maintaining local instances of Confluence, Jira, and secure VPN services",
-    "Executed robust backup and disaster recovery solutions using Veeam, ensuring data integrity and business continuity",
-    "Managed server resources and infrastructure, addressing development teams' resource allocation and operational needs"
+    "Executed robust <b>backup and disaster recovery</b> solutions using Veeam, ensuring data integrity and business continuity",
+    "Managed <b>server resources and infrastructure</b>, addressing development teams' resource allocation and operational needs"
 ]
 
 [[work]]
@@ -95,16 +95,17 @@ city = "Tehran"
 country = "Iran"
 description = "In my role as a Blockchain Researcher and Developer, I led innovative research and implementation of blockchain technologies, focusing on developing cutting-edge decentralized solutions tailored to needs:"
 bullets = [
-    "Conducted comprehensive research on Hyperledger technologies, identifying and recommending optimal blockchain frameworks for diverse organizational needs",
-    "Utilized Solidity to develop and deploy smart contracts and decentralized applications (dApps) tailored to specific client requirements",
-    "Implemented Hyperledger technologies including Fabric and Sawtooth, successfully deploying them on internal server infrastructure",
-    "Developed specialized blockchain services, including implementations of decentralized exchange (DEX) platforms, Wallet as a Service (WaaS), and blockchain-based voting systems",
+    "Conducted comprehensive research on <b>Hyperledger technologies</b>, identifying and recommending optimal blockchain frameworks for diverse organizational needs",
+    "Utilized Solidity to develop and deploy <b>smart contracts</b> and decentralized applications (<b>dApps</b>) tailored to specific client requirements",
+    "Implemented Hyperledger technologies including <b>Fabric</b> and <b>Sawtooth</b>, successfully deploying them on internal server infrastructure",
+    "Developed specialized blockchain services, including implementations of decentralized exchange (<b>DEX</b>) platforms, Wallet as a Service (<b>WaaS</b>), and <b>blockchain-based voting systems</b>",
     "Served as a key knowledge transfer resource, conducting technical training and knowledge sharing sessions on Hyperledger technologies for cross-functional teams",
     "Successfully implemented and operationalized blockchain solutions, demonstrating end-to-end expertise from research to production deployment"
 ]
 
 ############## Freelance config ################
 #################################################
+#TODO
 [[freelance]]
 title = "Detecting Parasites in Pets Microscopic Images"
 timeline = "Sep 2022 - April 2023"
