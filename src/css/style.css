@@ -64,6 +64,7 @@
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
   --orange-yellow-crayola: hsl(45, 100%, 72%);
+  --orange-yellow-desc: hsl(44, 24%, 74%);
   --vegas-gold: hsl(45, 54%, 58%);
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
@@ -833,6 +834,12 @@ main {
   line-height: 1.6;
 }
 
+
+.timeline-text-desc {
+  color: var(--orange-yellow-desc);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+}
 
 /**
  * skills 
