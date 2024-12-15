@@ -7,6 +7,8 @@ birthday = "April 7, 2001"
 location = "Tehran, Iran"
 avatar = "./config/assets/avatars/avatar.jpeg"
 username = "neginkheirmand" # <-- github user name
+
+# Long presentation
 presentation = """
 Hello👋😊
 I'm **Negin Kheirmand**, a driven computer engineer with a deep passion for innovation and problem-solving. My journey into technology began at **17** with a milestone achievement—winning second place at **Iran Open 2018** in the **Virtual Rescue League** while still in high school, competing alongside university teams. This experience sparked my enduring commitment to pushing boundaries in **computer science**.
@@ -20,4 +22,9 @@ What drives my work is a unique combination of **constant drive to innovate** an
 Beyond technical projects, my role as **Head of Communications** in the **Student Council** for two years allowed me to foster connections within the academic community. It was during this time that I discovered my passion for collaboration, whether it was organizing events, mentoring peers, or working with friends to turn innovative ideas into reality. These experiences not only honed my teamworking and organizational skills but also deepened my commitment to using technology to address meaningful challenges.
 
 With a strong foundation in these fields, I’m constantly motivated to expand my knowledge and apply my expertise to tackle cutting-edge challenges and contribute to advancements in **AI** and **machine learning**.
+"""
+
+# Short presentation (add this part)
+short_presentation = """
+I'm **Negin Kheirmand**, a passionate computer engineer driven by innovation and problem-solving. My journey began with winning second place at **Iran Open 2018** and has led me to pursue impactful projects in **machine learning**, **graph theory**, and **AI**. I aim to use my knowledge to tackle real-world challenges and contribute to advancements in technology.
 """

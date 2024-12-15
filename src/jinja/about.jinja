@@ -1,21 +1,37 @@
 <!-- about.jinja -->
-<article class="about  active" data-page="about">
+<article class="about active" data-page="about">
 
   <header>
     <h2 class="h2 article-title">About me</h2>
+
+    <!-- Toggle switch for short/long version -->
+    <label class="toggle-switch">
+      <input type="checkbox" id="about-toggle" class="toggle-checkbox" checked>
+      <span class="toggle-slider"></span>
+    </label>
   </header>
 
   <section class="about-text">
 
-    {% for line in about.presentation.split('\n') %}
-    {% if line.strip() %}
-    <p>{{ line }}</p>
-    {% endif %}
-    {% endfor %}
+    <!-- Long version -->
+    <div id="long-version" style="display: none;">
+      {% for line in about.presentation.split('\n') %}
+        {% if line.strip() %}
+          <p>{{ line }}</p>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <!-- Short version -->
+    <div id="short-version">
+      {% for line in about.short_presentation.split('\n') %}
+        {% if line.strip() %}
+          <p>{{ line }}</p>
+        {% endif %}
+      {% endfor %}
+    </div>
 
   </section>
-
-
   <!--
           - service
         -->
@@ -154,5 +170,27 @@
 
   </section>
   {% endif %}
+
+<script>
+    const toggle = document.getElementById("about-toggle");
+    const longVersion = document.getElementById("long-version");
+    const shortVersion = document.getElementById("short-version");
+
+    // Ensure the default is short version
+    if (toggle.checked) {
+      longVersion.style.display = "none";
+      shortVersion.style.display = "block";
+    }
+
+    toggle.addEventListener("change", function() {
+      if (toggle.checked) {
+        longVersion.style.display = "none";
+        shortVersion.style.display = "block";
+      } else {
+        longVersion.style.display = "block";
+        shortVersion.style.display = "none";
+      }
+    });
+  </script>
 
 </article>
