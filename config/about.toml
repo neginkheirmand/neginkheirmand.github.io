@@ -8,7 +8,8 @@ location = "Tehran, Iran"
 avatar = "./config/assets/avatars/avatar.jpeg"
 username = "neginkheirmand" # <-- github user name
 presentation = """
-Hello, I'm **Negin Kheirmand**, a driven computer engineer with a deep passion for innovation and problem-solving. My journey into technology began at **17** with a milestone achievement—winning second place at **Iran Open 2018** in the **Virtual Rescue League** while still in high school, competing alongside university teams. This experience sparked my enduring commitment to pushing boundaries in **computer science**.
+Hello👋😊
+I'm **Negin Kheirmand**, a driven computer engineer with a deep passion for innovation and problem-solving. My journey into technology began at **17** with a milestone achievement—winning second place at **Iran Open 2018** in the **Virtual Rescue League** while still in high school, competing alongside university teams. This experience sparked my enduring commitment to pushing boundaries in **computer science**.
 
 I pursued my Bachelor's degree at **Amirkabir University of Technology**, one of the top institutions in Iran, where I focused on **machine learning** and its applications in impactful projects. One of these was **PenSLR**, a glove-based system powered by **deep learning** for **Persian Sign Language recognition**. This project introduced novel **ensembling techniques** to improve prediction accuracy and contributed a new **PSL dataset**, filling a significant gap in the field.
 
