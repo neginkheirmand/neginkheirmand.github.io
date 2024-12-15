@@ -2,7 +2,7 @@
 [[doing]]
 title = "Human-Computer Interaction"
 icon = "./config/assets/icons/hand-left.svg"
-text = "Combining hardware and software excites me. In PenSLR, a glove-based system for Persian Sign Language recognition, I worked with sensors, Arduino, and deep learning models to build an accessible, real-world solution—an experience that fueled my passion for intuitive human-computer interfaces."
+text = "Combining hardware and software excites me. In PenSLR, a sign language recognition system for Persian Sign Language, I developed a solution using sensors, Arduino, and deep learning models to help deaf and hard of hearing individuals communicate. Seeing my work have a real-world impact shaped my focus on creating meaningful, accessible solutions in technology."
 
 [[doing]]
 title = "Graph Theory & Social Network Analysis"
