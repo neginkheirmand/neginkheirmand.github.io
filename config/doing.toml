@@ -2,12 +2,12 @@
 [[doing]]
 title = "Human-Computer Interaction"
 icon = "./config/assets/icons/hand-left.svg"
-text = "Combining hardware and software excites me. In *PenSLR*, a glove-based system for Persian Sign Language recognition, I worked with sensors, Arduino, and deep learning models to build an accessible, real-world solution—an experience that fueled my passion for intuitive human-computer interfaces."
+text = "Combining hardware and software excites me. In PenSLR, a glove-based system for Persian Sign Language recognition, I worked with sensors, Arduino, and deep learning models to build an accessible, real-world solution—an experience that fueled my passion for intuitive human-computer interfaces."
 
 [[doing]]
 title = "Blockchain & Distributed Systems"
 icon = "./config/assets/icons/blockchain.svg"
-text = "Blockchain’s ability to enable secure, decentralized systems fascinates me. At *Chainnova*, I explored frameworks like Hyperledger Fabric, designed decentralized applications, and worked on blockchain-based solutions, solidifying my interest in this rapidly evolving field."
+text = "Blockchain’s ability to enable secure, decentralized systems fascinates me. At Chainnova, I explored frameworks like Hyperledger Fabric, designed decentralized applications, and worked on blockchain-based solutions, solidifying my interest in this rapidly evolving field."
 
 [[doing]]
 title = "DevOps & MLOps"
@@ -16,8 +16,8 @@ text = "My passion for automating repetitive tasks led me to DevOps and MLOps. W
 
 [[doing]]
 title = "Graph Theory & Social Network Analysis"
-icon = "./config/assets/icons/graph.svg"
-text = "Understanding how information spreads and identifying key nodes in networks fascinates me. Implementing a convolutional neural network to rank influential nodes in complex graphs gave me a deeper appreciation for graph theory and its real-world applications. I am eager to explore advanced techniques in network analysis and their role in solving modern challenges."
+icon = "./config/assets/icons/graph5.svg"
+text = "Understanding how information spreads and identifying key nodes in networks fascinates me. Using a convolutional neural network to rank influential nodes in complex graphs deepened my appreciation for graph theory and its real-world applications. I’m eager to explore advanced network analysis techniques for solving modern challenges."
 
 [[doing]]
 title = "Data Mining & Deep Learning"
@@ -27,4 +27,4 @@ text = "I am fascinated by the potential of deep learning and data mining to unc
 [[doing]]
 title = "Computer Vision"
 icon = "./config/assets/icons/aperture.svg"
-text = "My interest in computer vision began when I developed an object detection and human recognition system for the *Echoic* team, helping us win second place at Iran Open 2018. Since then, I’ve explored tasks like face reconstruction and image classification, driven by a desire to understand and process visual data."
+text = "My interest in computer vision began when I developed an object detection and human recognition system for the Echoic team, helping us win second place at Iran Open 2018. Since then, I’ve explored tasks like face reconstruction and image classification, driven by a desire to understand and process visual data."
