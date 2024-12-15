@@ -1,25 +1,25 @@
 # todo: blockchain, devops, mlops, 
-
 [[doing]]
 title = "Data Mining & Deep Learning"
 icon = "./config/assets/icons/analytics.svg"
-# icon = "analytics"
-text = "I am passionate about leveraging data mining and deep learning approaches to solve complex problems across various domains. My primary focus lies in applying these algorithms to time series data, gaining valuable insights from spatio-temporal patterns."
+text = "I am passionate about leveraging data mining and deep learning approaches to solve complex problems across various domains. My primary focus lies in analyzing time-series data and extracting insights from spatio-temporal patterns. In projects like information spread modeling in complex networks, I used convolutional neural networks to simulate diffusion dynamics and rank influential nodes, showcasing the power of deep learning in real-world applications."
 
 [[doing]]
 title = "Computer Vision"
 icon = "./config/assets/icons/aperture.svg"
-# icon = "aperture"
-text = "Working with images has always been one of my core interests, leading me to explore different computer vision tasks. I have completed several projects in areas such as Object Detection, Face Reconstruction, and Image Classification."
+text = "Working with images has always been one of my core interests, and it first took shape during my high school years when I built an object detection and human recognition system for the *Echoic* team in the Virtual Rescue League at Iran Open 2018. This system helped our team achieve second place, competing at a university level, and sparked my fascination with computer vision. Since then, I have explored tasks like face reconstruction, image classification, and other visual recognition problems."
 
 [[doing]]
-title = "AI in Sports Analytics"
-icon = "./config/assets/icons/football.svg"
-# icon = "football"
-text = "Working with sports data combines my two passions: Sports, especially football, and AI. During my Bachelor thesis, I focused on extracting chance creation patterns in football teams, giving me the opportunity to delve into this exciting field."
-
-[[doing]]
-title = "Human Computer Interaction"
+title = "Human-Computer Interaction"
 icon = "./config/assets/icons/hand-left.svg"
-# icon = "hand-right"
-text = "In addition to the software side, I found working with microcontrollers and sensors to be incredibly fascinating. In my first academic paper, we developed an end-to-end approach to detect Persian Sign Language glosses. I believe this area holds immense potential for advancing human-computer interaction."
+text = "Combining software and hardware has always intrigued me. In my first academic paper, I co-developed *PenSLR*, a glove-based system equipped with sensors to detect Persian Sign Language glosses. This end-to-end deep learning approach demonstrated the potential of wearable technology to enhance accessibility and communication. My experience working with microcontrollers like Arduino and Raspberry Pi further deepened my interest in creating intuitive and impactful interfaces."
+
+[[doing]]
+title = "Blockchain & Distributed Systems"
+icon = "./config/assets/icons/layers.svg"
+text = "I have extensive experience working on blockchain technologies, ranging from Hyperledger frameworks like Fabric and Sawtooth to designing decentralized applications (dApps). As part of my role at *Chainnova*, I researched consensus mechanisms, developed blockchain-based voting systems, and deployed Wallet-as-a-Service solutions. I also shared my findings with peers, leading discussions on blockchain use cases, smart contract development, and deployment strategies."
+
+[[doing]]
+title = "DevOps & MLOps"
+icon = "./config/assets/icons/settings.svg"
+text = "Ensuring smooth and scalable deployment of applications is a vital part of my workflow. My experience as an infrastructure administrator involved managing production environments, databases, and tools like Docker, Nginx, GitLab CI/CD, and Veeam. In machine learning projects, I utilized Docker and cloud-based solutions to streamline model deployment and enhance reproducibility, particularly for systems like *PenSLR* and graph-based deep learning models."
