@@ -20,12 +20,12 @@ title = "Undergraduate Research Assistant"
 timeline = "Jan 2022 — Apr 2024"
 institution = "Amirkabir Uni. of Tech."
 supervisor = "Dr. Hamed Farbeh"
-description = "In my first academic paper, my colleagues and I developed a cutting-edge <b>sign language recognition system</b>. Our main contributions included:"
+description = "In my first academic paper, my colleagues and I developed <b>PenSLR</b>, a pioneering <b>glove-based sign language recognition system</b> for Persian Sign Language (PSL). This work achieved <b>state-of-the-art performance for PSL recognition</b> and introduced a scalable approach applicable to other <b>gesture recognition tasks</b>. Our main contributions included:"
 bullets = [
-    "Designing a specialized sign language glove equipped with Arduino and five flexible sensors",
-    "Collecting the largest Persian Sign Language dataset at the time.",
-    "Implementing an end-to-end deep learning framework for accurate sign language recognition using CTC loss function",
-    "Introducing a novel ensembling algorithm for grammar-agnostic sequence-to-sequence tasks"
+    "Designing a specialized sign language glove integrated with an <b>IMU</b> and five flexible sensors",
+    "Collecting and curating the <b>largest PSL dataset to date</b>, featuring <b>16</b> unique signs and over <b>3000 time-series samples</b>",
+    "Implementing an <b>end-to-end</b> deep learning framework using <b>CRNNs</b> and the <b>CTC loss</b> function to predict <b>variable-length sequences without manual segmentation</b>",
+    "Introducing an <b>innovative ensembling algorithm</b> based on <b>multiple sequence alignment</b> to enhance sequence-to-sequence recognition accuracy"
 ]
 
 [[research]]
@@ -53,11 +53,11 @@ city = "Tehran"
 country = "Iran"
 description = "Served as a key backend developer focusing on microservices architecture, delivering scalable and reliable API solutions for a banking client through strategic technical implementation and agile methodologies:"
 bullets = [
-    "Architected and implemented multiple scalable REST API services for a banking client, leveraging microservices architecture to enhance system performance and modularity",
-    "Independently conceptualized, designed, and developed a comprehensive microservices chassis, taking sole responsibility for creating a robust foundational framework that enabled future service expansion and integration",
+    "Architected and implemented multiple <b>scalable REST API services</b> for a banking client, leveraging <b>microservices architecture</b> to enhance system performance and modularity",
+    "<b>Independently conceptualized, designed, and developed a comprehensive microservices chassis</b>, taking sole responsibility for creating a robust foundational framework that enabled future service expansion and integration",
     "Engineered backend solutions using C#, optimizing application reliability, performance, and scalability through strategic architectural design",
-    "Packaged ASP.NET APIs into Docker containers and deployed them across server environments, ensuring seamless integration and scalability",
-    "Conducted rigorous unit testing to evaluate and validate software components, maintaining high-quality standards throughout the development lifecycle",
+    "<b>Packaged ASP.NET APIs into Docker containers</b> and <b>deployed</b> them across server environments, ensuring seamless integration and scalability",
+    "Conducted rigorous <b>unit testing</b> to evaluate and validate software components, maintaining high-quality standards throughout the development lifecycle",
     "Collaborated within Agile and Scrum frameworks to successfully complete releases and sprint objectives, demonstrating effective team coordination and project management"
 ]
 
