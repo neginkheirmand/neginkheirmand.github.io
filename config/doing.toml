@@ -1,25 +1,30 @@
-# todo: blockchain, devops, mlops, 
-[[doing]]
-title = "Data Mining & Deep Learning"
-icon = "./config/assets/icons/analytics.svg"
-text = "I am passionate about leveraging data mining and deep learning approaches to solve complex problems across various domains. My primary focus lies in analyzing time-series data and extracting insights from spatio-temporal patterns. In projects like information spread modeling in complex networks, I used convolutional neural networks to simulate diffusion dynamics and rank influential nodes, showcasing the power of deep learning in real-world applications."
-
-[[doing]]
-title = "Computer Vision"
-icon = "./config/assets/icons/aperture.svg"
-text = "Working with images has always been one of my core interests, and it first took shape during my high school years when I built an object detection and human recognition system for the *Echoic* team in the Virtual Rescue League at Iran Open 2018. This system helped our team achieve second place, competing at a university level, and sparked my fascination with computer vision. Since then, I have explored tasks like face reconstruction, image classification, and other visual recognition problems."
 
 [[doing]]
 title = "Human-Computer Interaction"
 icon = "./config/assets/icons/hand-left.svg"
-text = "Combining software and hardware has always intrigued me. In my first academic paper, I co-developed *PenSLR*, a glove-based system equipped with sensors to detect Persian Sign Language glosses. This end-to-end deep learning approach demonstrated the potential of wearable technology to enhance accessibility and communication. My experience working with microcontrollers like Arduino and Raspberry Pi further deepened my interest in creating intuitive and impactful interfaces."
+text = "Combining hardware and software excites me. In *PenSLR*, a glove-based system for Persian Sign Language recognition, I worked with sensors, Arduino, and deep learning models to build an accessible, real-world solution—an experience that fueled my passion for intuitive human-computer interfaces."
 
 [[doing]]
 title = "Blockchain & Distributed Systems"
-icon = "./config/assets/icons/layers.svg"
-text = "I have extensive experience working on blockchain technologies, ranging from Hyperledger frameworks like Fabric and Sawtooth to designing decentralized applications (dApps). As part of my role at *Chainnova*, I researched consensus mechanisms, developed blockchain-based voting systems, and deployed Wallet-as-a-Service solutions. I also shared my findings with peers, leading discussions on blockchain use cases, smart contract development, and deployment strategies."
+icon = "./config/assets/icons/blockchain.svg"
+text = "Blockchain’s ability to enable secure, decentralized systems fascinates me. At *Chainnova*, I explored frameworks like Hyperledger Fabric, designed decentralized applications, and worked on blockchain-based solutions, solidifying my interest in this rapidly evolving field."
 
 [[doing]]
 title = "DevOps & MLOps"
-icon = "./config/assets/icons/settings.svg"
-text = "Ensuring smooth and scalable deployment of applications is a vital part of my workflow. My experience as an infrastructure administrator involved managing production environments, databases, and tools like Docker, Nginx, GitLab CI/CD, and Veeam. In machine learning projects, I utilized Docker and cloud-based solutions to streamline model deployment and enhance reproducibility, particularly for systems like *PenSLR* and graph-based deep learning models."
+icon = "./config/assets/icons/mlops2.svg"
+text = "My passion for automating repetitive tasks led me to DevOps and MLOps. With hands-on experience in streamlining workflows and managing deployments using tools like Docker, GitLab CI/CD, and Nginx, I've developed a strong understanding of how these practices enhance system efficiency, scalability, and reliability."
+
+[[doing]]
+title = "Graph Theory & Social Network Analysis"
+icon = "./config/assets/icons/graph.svg"
+text = "Understanding how information spreads and identifying key nodes in networks fascinates me. Implementing a convolutional neural network to rank influential nodes in complex graphs gave me a deeper appreciation for graph theory and its real-world applications. I am eager to explore advanced techniques in network analysis and their role in solving modern challenges."
+
+[[doing]]
+title = "Data Mining & Deep Learning"
+icon = "./config/assets/icons/analytics.svg"
+text = "I am fascinated by the potential of deep learning and data mining to uncover patterns and solve real-world problems. My work on modeling information spread in complex networks using convolutional neural networks deepened my interest in time-series data and spatio-temporal analysis."
+
+[[doing]]
+title = "Computer Vision"
+icon = "./config/assets/icons/aperture.svg"
+text = "My interest in computer vision began when I developed an object detection and human recognition system for the *Echoic* team, helping us win second place at Iran Open 2018. Since then, I’ve explored tasks like face reconstruction and image classification, driven by a desire to understand and process visual data."
