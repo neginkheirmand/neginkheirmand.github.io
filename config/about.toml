@@ -27,6 +27,6 @@ With a strong foundation in these fields, I’m constantly motivated to expand m
 # Short presentation (add this part)
 short_presentation = """
 I'm Negin Kheirmand, a computer engineering graduate from Amirkabir University of Technology. At 17, I made my mark by winning second place in the Iran Open 2018 Virtual Rescue League, sparking my passion for innovative technology.
-My academic journey focused on machine learning, with standout projects like PenSLR—a deep learning system for Persian Sign Language recognition that introduced novel ensembling techniques and created a new PSL dataset. I also developed a framework for analyzing information spread in complex networks using convolutional neural networks.
+My academic journey focused on machine learning, with standout projects like PenSLR—a deep learning system for Persian Sign Language recognition that introduced novel ensembling techniques and created a new PSL dataset.  I also worked on modeling information spread in complex networks, developing a framework to rank influential nodes in networks using graph features and the SIR model.
 As Head of Communications in the Student Council, I honed my teamworking and collaboration skills while working to transform innovative ideas into reality. Driven by curiosity, I'm particularly excited about exploring human-computer interaction, blockchain technologies, DevOps, graph theory, and computer vision—fields where technology can create meaningful, innovative solutions.
 """

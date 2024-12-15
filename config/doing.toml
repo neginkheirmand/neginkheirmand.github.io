@@ -5,6 +5,11 @@ icon = "./config/assets/icons/hand-left.svg"
 text = "Combining hardware and software excites me. In PenSLR, a glove-based system for Persian Sign Language recognition, I worked with sensors, Arduino, and deep learning models to build an accessible, real-world solution—an experience that fueled my passion for intuitive human-computer interfaces."
 
 [[doing]]
+title = "Graph Theory & Social Network Analysis"
+icon = "./config/assets/icons/graph5.svg"
+text = "Understanding how information spreads and identifying key nodes in networks fascinates me. Using a convolutional neural network to rank influential nodes in complex graphs deepened my appreciation for graph theory and its real-world applications. I’m eager to explore advanced network analysis techniques for solving modern challenges."
+
+[[doing]]
 title = "Blockchain & Distributed Systems"
 icon = "./config/assets/icons/blockchain.svg"
 text = "Blockchain’s ability to enable secure, decentralized systems fascinates me. At Chainnova, I explored frameworks like Hyperledger Fabric, designed decentralized applications, and worked on blockchain-based solutions, solidifying my interest in this rapidly evolving field."
@@ -13,11 +18,6 @@ text = "Blockchain’s ability to enable secure, decentralized systems fascinate
 title = "DevOps & MLOps"
 icon = "./config/assets/icons/mlops2.svg"
 text = "My passion for automating repetitive tasks led me to DevOps and MLOps. With hands-on experience in streamlining workflows and managing deployments using tools like Docker, GitLab CI/CD, and Nginx, I've developed a strong understanding of how these practices enhance system efficiency, scalability, and reliability."
-
-[[doing]]
-title = "Graph Theory & Social Network Analysis"
-icon = "./config/assets/icons/graph5.svg"
-text = "Understanding how information spreads and identifying key nodes in networks fascinates me. Using a convolutional neural network to rank influential nodes in complex graphs deepened my appreciation for graph theory and its real-world applications. I’m eager to explore advanced network analysis techniques for solving modern challenges."
 
 [[doing]]
 title = "Data Mining & Deep Learning"
