@@ -17,17 +17,6 @@ description = "GPA: 18.16/20 = 3.83/4"
 
 [[research]]
 title = "Undergraduate Research Assistant"
-timeline = "Feb 2022 — Jun 2022"
-institution = "Amirkabir Uni. of Tech."
-supervisor = "Dr. Reza Safabakhsh"
-description = "As part of the ‘Research and Technical Representation’ course at AUT, I conducted an in-depth study on <b>classic edge detection algorithms for grayscale images</b> . The research included:"
-bullets = [
-    "Conducting a comprehensive literature review on traditional edge detection methods",
-    "Implementing algorithms such as Sobel, Prewitt, Roberts Cross, LoG, Boolean Function, and Canny using OpenCV, followed by a comparative analysis of their performance"
-]
-
-[[research]]
-title = "Undergraduate Research Assistant"
 timeline = "Jan 2022 — Apr 2024"
 institution = "Amirkabir Uni. of Tech."
 supervisor = "Dr. Hamed Farbeh"
