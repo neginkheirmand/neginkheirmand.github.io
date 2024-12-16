@@ -32,10 +32,6 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Build with Python Jinja
         run: python main.py
-      - name: List files in the directory
-        run: ls -l
-      - name: Check index.html content
-        run: cat index.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
